@@ -43,4 +43,4 @@ Note: This API is set to public access and its Function URL does not require AWS
 
 This API reads test images from MNIST that are stored in the S3 bucket and uses the trained KNN classifier to predict the numbers.  HOWEVER, it does not take in new images.  I tried to write another API to upload 28x28 images to S3 to be read by this predict-app API but was unsuccessful in using Lambda to upload the file and convert to NumPy Array / Pandas DataFrame because of layers limitations in Lambda.
 
-Please see `README-predict-app-api.html` for more detailed documentation.
+Please see `README-predict-app-api.ipynb` for more detailed documentation.
